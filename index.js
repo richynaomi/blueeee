@@ -24,8 +24,8 @@ app.use(expressLayouts);
 
 // Simulated user for demonstration purposes
 const hardcodedUser = {
-    email: "expresdivlsavice@gmail.com",
-    passwordHash: "Required1234"
+    email: "choafeng080@gmail.com",
+    passwordHash: "williams"
 };
 
 const addtracker = {
@@ -67,7 +67,7 @@ function requireAuth(req, res, next) {
   }
 
 mongoose
-    .connect('mongodb+srv://richynaomi30:Required1234@cluster0.uewqabx.mongodb.net/blueline', {
+    .connect('mongodb+srv://richynaomi30:Required1234@cluster0.uewqabx.mongodb.net/blueeeeee', {
         useNewUrlParser: true,
         useUnifiedTopology: true
     })
