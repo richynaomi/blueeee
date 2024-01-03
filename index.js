@@ -21,6 +21,7 @@ app.set('layout extractStyles', true)
 
 app.use(expressLayouts);
 
+// daniel
 
 // Simulated user for demonstration purposes
 const hardcodedUser = {
